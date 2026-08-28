@@ -1,7 +1,12 @@
+
+> 4038-northlight-dr-1506@1.0.0 smoke
+> node scripts/browser-smoke.cjs
+
 PASS: semantic h1 and 14 responsive lazy gallery images
 PASS: self-hosted fonts applied {"heading":"Marcellus, Georgia, serif","body":"Mulish, Arial, sans-serif","marcellus":true,"mulish":true}
 PASS: mobile sticky CTA and condensed navigation
 PASS: GLightbox opens and closes by keyboard
+PASS: virtual tour has stable 16:9 footprint, accessible title, lazy loading, and fallback link
 PASS: map is lazy and interaction-gated
 PASS: zero initial third-party requests and zero browser errors
 PASS: reduced motion {"opacity":"1","animation":"1e-05s","transition":"1e-05s"}

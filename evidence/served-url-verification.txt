@@ -1,0 +1,13 @@
+Pages build
+{"commit":"45f7a009747b3ae2a8b00ff0aa8acc09b57fe52a","created_at":"2026-08-28T21:33:00Z","error":{"message":null},"status":"built","updated_at":"2026-08-28T21:33:24Z"}
+Served byte verification
+index.html http=200 local_sha256=4b8d87f940187775948311f72bbb36ed85e4dce8398d2ca07a7d9e1436e3d4bb live_sha256=4b8d87f940187775948311f72bbb36ed85e4dce8398d2ca07a7d9e1436e3d4bb
+assets/site.css http=200 local_sha256=5cebd9896e588505b68e3c4c192d6c878e458c9d7a6dac94ce1073ebef4ff18a live_sha256=5cebd9896e588505b68e3c4c192d6c878e458c9d7a6dac94ce1073ebef4ff18a
+assets/site.js http=200 local_sha256=8ad197a593d04f63ab2c9f63995c57b6a7669674ff5ee09919008d52406a6448 live_sha256=8ad197a593d04f63ab2c9f63995c57b6a7669674ff5ee09919008d52406a6448
+photos/optimized/mls-01-480.webp http=200 local_sha256=df10797b06d75676b6f6556b10512c3699099189ad111799f2acf2aa29f4eb44 live_sha256=df10797b06d75676b6f6556b10512c3699099189ad111799f2acf2aa29f4eb44
+photos/optimized/mls-01-1920.webp http=200 local_sha256=5e5c3bf47901a07ab28956445191059296a36c4c08b030b966212593d3aab71b live_sha256=5e5c3bf47901a07ab28956445191059296a36c4c08b030b966212593d3aab71b
+vendor/glightbox/glightbox.min.js http=200 local_sha256=c67c59cdf980793b0216c9de9c6ebf688418838822af1e50b09439e3aa289ff3 live_sha256=c67c59cdf980793b0216c9de9c6ebf688418838822af1e50b09439e3aa289ff3
+photos/original/phone-7170.jpg http=404 expected=404
+evidence/lighthouse-mobile.json http=404 expected=404
+scripts/verify-build.py http=404 expected=404
+VERDICT: PASS — production bytes match; original/source/evidence paths return 404

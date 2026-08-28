@@ -1,13 +1,12 @@
 {
-  "performance": 100,
+  "performance": 99,
   "accessibility": 100,
-  "best_practices": 100,
+  "bestPractices": 100,
   "seo": 100,
-  "lcp": "1.0 s",
-  "cls": "0",
-  "tbt": "0 ms",
-  "fcp": "0.9 s",
-  "speed_index": "1.9 s",
-  "finalUrl": "https://marzucco-properties.github.io/4038-northlight-dr-1506/",
-  "fetchTime": "2026-08-28T21:34:34.851Z"
+  "lcpMs": 972.3725,
+  "fcpMs": 847.3725,
+  "cls": 0.00008760854152892127,
+  "tbtMs": 0,
+  "speedIndexMs": 2953.2312160080064,
+  "fetchTime": "2026-08-28T22:32:27.419Z"
 }

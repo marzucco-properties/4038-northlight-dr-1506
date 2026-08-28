@@ -1,0 +1,3 @@
+Original byte-for-byte source verification
+PASS: 57/57 originals match canonical source SHA-256
+count=57 bytes=69241678

@@ -1,0 +1,16 @@
+PASS: identity
+PASS: price and status
+PASS: association
+PASS: flood and as-is
+PASS: brokerage
+PASS: MLS
+PASS: fair housing
+PASS: image disclosure
+PASS: view truth
+PASS: structural scope
+PASS: forbidden/confidential public-copy claims absent
+PASS: protected regions and fee exclusion gate
+PASS: 57 originals retained; 344 responsive derivatives meet byte ceilings
+PASS: responsive image attributes and LCP priority
+PASS: semantics, zero emoji, sentinel reveal, reduced motion, sticky CTA, and lazy map
+VERDICT: PASS

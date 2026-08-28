@@ -1,0 +1,16 @@
+{
+  "name": "4038-northlight-dr-1506",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "images": "bash scripts/build-images.sh",
+    "verify": "python3 scripts/verify-build.py",
+    "validate": "html-validate index.html",
+    "smoke": "node scripts/browser-smoke.cjs"
+  },
+  "devDependencies": {
+    "html-validate": "10.4.0",
+    "lighthouse": "12.8.2",
+    "playwright-core": "1.55.0"
+  }
+}

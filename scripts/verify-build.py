@@ -77,6 +77,16 @@ if hero is None or hero.get("loading") == "lazy" or hero.get("fetchpriority") !=
 if doc.select_one('link[rel="preload"][as="image"][fetchpriority="high"]') is None: fail("hero preload missing")
 print("PASS: responsive image attributes and LCP priority")
 
+tour = doc.select_one('#virtual-tour iframe')
+tour_url = "https://lacasatour.com/property/4038-northlight-dr-1506-naples-fl-34112/ub"
+if tour is None: fail("virtual tour iframe missing")
+for attr in ("width", "height", "title"):
+    if not tour.get(attr): fail(f"virtual tour iframe missing {attr}")
+if tour.get("src") != tour_url or tour.get("loading") != "lazy": fail("virtual tour URL/loading strategy incorrect")
+fallback = doc.select_one(f'#virtual-tour a[href="{tour_url}"]')
+if fallback is None: fail("virtual tour fallback link missing")
+print("PASS: branded lazy virtual tour has dimensions, accessible title, and fallback link")
+
 if len(doc.find_all("h1")) != 1: fail("expected exactly one h1")
 if doc.select_one("#stickyCta") is None: fail("sticky CTA missing")
 css = (ROOT / "assets/site.css").read_text()

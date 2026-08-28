@@ -1,11 +1,12 @@
 {
-  "performance": 94,
+  "performance": 93,
   "accessibility": 100,
-  "best_practices": 100,
+  "bestPractices": 100,
   "seo": 100,
-  "lcp": "3.1 s",
-  "cls": "0",
-  "tbt": "0 ms",
-  "fcp": "1.2 s",
-  "speed_index": "1.2 s"
+  "lcpMs": 3154.1137,
+  "fcpMs": 1206.17055,
+  "cls": 0.00008760854152892127,
+  "tbtMs": 0,
+  "speedIndexMs": 1249.384230002553,
+  "fetchTime": "2026-08-28T22:26:17.261Z"
 }

@@ -1,0 +1,4 @@
+Targeted EXIF/GPS/XMP/IPTC metadata scan
+derivatives_scanned=344
+derivatives_with_container_or_stream_tags=0
+JPEG derivatives retain only an ICC color-rendering profile; no EXIF/GPS/XMP/IPTC tags were found.

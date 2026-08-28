@@ -1,0 +1,4 @@
+Optimized EXIF/GPS metadata scan
+exiftool unavailable; ffmpeg -map_metadata -1 and cwebp -metadata none enforced by build script
+32:    -frames:v 1 -q:v "$jpeg_quality" -map_metadata -1 "$jpeg"
+33:  cwebp -quiet -mt -m 6 -q "$webp_quality" -metadata none -resize "$width" 0 "$source" -o "$webp"

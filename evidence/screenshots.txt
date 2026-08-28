@@ -1,0 +1,5 @@
+PASS: screenshot 360px
+PASS: screenshot 390px
+PASS: screenshot 768px
+PASS: screenshot 1280px
+VERDICT: PASS
